@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+::-webkit-scrollbar {
+    width: 10px;
+    background-color: #090b0f;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgba(255, 255, 255, 0.066);
+}
+
+.hero-section {
+    position: absolute;
+    left: 0;
+    top: -700px;
+    min-height: 100vh;
+    z-index: 0;
+    right: 0;
+    background: #5f76f1;
+    filter: blur(400px);
+}
