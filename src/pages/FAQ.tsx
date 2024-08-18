@@ -42,7 +42,7 @@ const FAQ = () => {
     ];
 
     return (
-        <div className="flex items-start justify-evenly lg:pt-8 lg:min-h-fit bg-pri-dark">
+        <div className="flex flex-col lg:flex-row items-start justify-evenly lg:pt-8 lg:min-h-fit bg-pri-dark">
             <div className="lg:w-2/4 ">
                 <span className="text-transparent font-inter font-bold bg-clip-text bg-gradient-to-r from-[#00BA6C] to-[#3050ee]">
                     FAQ
@@ -50,10 +50,12 @@ const FAQ = () => {
                 <h1 className="text-white text-4xl font-semibold lg:my-1 font-inter">
                     Get all your questions <br /> answered here!
                 </h1>
-                <p className="text-[1.1rem] text-white/90 text-left font-inter">or ping us through our support email to learn more.</p>
+                <p className="text-[1.1rem] text-white/90 text-left font-inter">
+                    or ping us through our support email to learn more.
+                </p>
             </div>
-            <div className="lg:w-2/4 relative">
-                <Accordion className="absolute right-0 left-0 font-inter" type="single" collapsible>
+            <div className="w-full lg:w-2/4 relative">
+                <Accordion className="lg:absolute right-0 left-0 font-inter" type="single" collapsible>
                     {quest.map((value, key) => {
                         return (
                             <AccordionItem key={key} value={value.faqId}>
