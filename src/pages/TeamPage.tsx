@@ -1,4 +1,4 @@
-import testImage from "../assets/image/bg-images/test-img.png";
+// import testImage from "../assets/image/bg-images/test-img.png";
 import teamOctane from "../data/data";
 
 const TeamPage = () => {
