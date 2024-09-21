@@ -16,7 +16,7 @@ const LandingPage = () => {
                     />
                 </div>
                 <div className="md:w-1/6 flex items-center justify-end">
-                    <h1 className="text-white hover:text-white font-inter lg:text-white/80 duration-300 cursor-pointer font">
+                    <h1 className="text-white hover:text-white font-inter lg:text-white/80 duration-300 cursor-pointer font text-sm lg:text-md">
                         Get in touch
                     </h1>
                 </div>

@@ -12,7 +12,7 @@ const TeamPage = () => {
                     </span>
                     ,
                 </h4>
-                <h1 className="text-white text-center text-2xl lg:text-[3.3rem] font-semibold lg:my-1 font-inter">
+                <h1 className="text-white text-center text-2xl lg:text-[3.3rem] font-semibold lg:my-4 font-inter">
                     We build this together!
                 </h1>
             </div>

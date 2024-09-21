@@ -42,7 +42,7 @@ const FAQ = () => {
     ];
 
     return (
-        <div className="flex flex-col lg:flex-row items-start justify-evenly lg:pt-8 lg:min-h-fit bg-pri-dark">
+        <div className="flex flex-col lg:flex-row items-start justify-evenly lg:pt-8 lg:min-h-fit bg-pri-dark lg:px-32">
             <div className="lg:w-2/4 ">
                 <span className="text-transparent font-inter font-bold bg-clip-text bg-gradient-to-r from-[#00BA6C] to-[#3050ee]">
                     FAQ
