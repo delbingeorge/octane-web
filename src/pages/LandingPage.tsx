@@ -16,9 +16,12 @@ const LandingPage = () => {
                     />
                 </div>
                 <div className="md:w-1/6 flex items-center justify-end">
-                    <h1 className="text-white hover:text-white font-inter lg:text-white/80 duration-300 cursor-pointer font text-sm lg:text-md">
+                    <a
+                        href="mailto:innovationsoctane@gmail.com"
+                        className="text-white hover:text-white font-inter lg:text-white/80 duration-300 cursor-pointer font text-sm lg:text-md"
+                    >
                         Get in touch
-                    </h1>
+                    </a>
                 </div>
             </nav>
 
@@ -35,9 +38,12 @@ const LandingPage = () => {
                         cutting-edge software solutions to propel your business to peak performance.
                     </p>
                     <div className="flex items-center justify-between space-x-5 fade-up-two mt-6">
-                        <button className="px-4 py-2 bg-white duration-500 text-black hover:bg-white/40 font-inter font-medium border-white rounded-md border-2 hover:text-white text-sm">
-                            <a href={"mailto:octanecompany@proton.me"}>Get in touch</a>
-                        </button>
+                        <a
+                            href="mailto:innovationsoctane@gmail.com"
+                            className="px-4 py-2 bg-white duration-500 text-black hover:bg-white/40 font-inter font-medium border-white rounded-md border-2 hover:text-white text-sm"
+                        >
+                            Get in touch
+                        </a>
                     </div>
                 </div>
             </main>

@@ -18,7 +18,7 @@ const WorldPage = () => {
                 </p>
 
                 <img
-                    className="my-8 lg:my-12"
+                    className="my-8 lg:my-2"
                     width={1080}
                     height={700}
                     src={WorldMap}

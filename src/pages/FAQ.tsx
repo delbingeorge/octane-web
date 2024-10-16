@@ -34,10 +34,7 @@ const FAQ = () => {
             faqId: "item-3",
             title: "How can I contact Octane for support or inquiries?",
             body: `You can contact Octane for support or inquiries through several convenient channels. Reach out to
-                   us via email at [your support email], or call our customer support hotline at [your phone number].
-                   For quick questions, you can also use the live chat feature on our website. Additionally, you can
-                   fill out the contact form on our website, and one of our representatives will get back to you
-                   promptly. We're here to help with any questions or support needs you may have.`,
+                   us via email at innovationsoctane@gmail.com.`,
         },
     ];
 

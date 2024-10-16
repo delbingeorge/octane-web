@@ -3,7 +3,7 @@ import teamOctane from "../data/data";
 
 const TeamPage = () => {
     return (
-        <div className="lg:my-24 flex items-center justify-center flex-col bg-profile-x-bg-cover">
+        <div className="lg:mb-14 lg:mt-2 flex items-center justify-center flex-col bg-profile-x-bg-cover">
             <div className="flex items-center justify-center flex-col mb-8 lg:my-12">
                 <h4 className="text-xl lg:text-[1.5rem] text-white font-inter text-center">
                     Meet team{" "}
@@ -30,7 +30,7 @@ const TeamPage = () => {
                                 src={value.image}
                                 alt="World Map of places where octane provide services"
                             />
-                            <div className="flex items-center justify-center flex-col mt-3">
+                            <div className="flex items-start justify-center flex-col mt-3">
                                 <h1 className="font-mono text-white text-xl lg:text-[1.7rem] font-extrabold">
                                     {value.firstName + " " + value.lastName}
                                 </h1>
