@@ -33,7 +33,7 @@ function App() {
                     <Route path="/" element={<Main />} />
                     <Route path="/our-works" element={<Projects />} />
                     <Route path="*" element={<Projects />} />
-                    <Route path="/gitopus" element={<Gitopus />} />
+                    {/* <Route path="/gitopus" element={<Gitopus />} /> */}
                 </Routes>
             </BrowserRouter>
         </>

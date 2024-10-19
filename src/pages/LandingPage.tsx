@@ -45,12 +45,12 @@ const LandingPage = () => {
                         >
                             Get in touch
                         </a>
-                        <Link
+                        {/* <Link
                             to="/our-works"
                             className="px-5 py-2 hover:bg-white duration-500 hover:text-black bg-white/40 font-inter font-medium border-white/90 rounded-[0.5rem] border-2 text-white/90 text-[1rem]"
                         >
                             View Works
-                        </Link>
+                        </Link> */}
                     </div>
                 </div>
             </main>

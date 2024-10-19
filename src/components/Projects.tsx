@@ -24,7 +24,7 @@ function Projects() {
             <div className="bg-[#090b0f] min-h-screen">
                 <div className="mx-8 lg:mx-20 lg:mb-32 absolute z-20">
                     <div className="">
-                        <h1 className="text-[2rem] font-inter leading-[2.5rem] font-semibold tracking-normal py-8 text-left text-white">
+                        <h1 className="text-[2rem] font-inter leading-[2.5rem] font-medium tracking-normal py-8 text-left text-white">
                             Our contributions{" "}
                             <span className="bg-gradient-to-r from-[#3221FA] to-[#FF41E1] bg-clip-text text-transparent"></span>
                         </h1>

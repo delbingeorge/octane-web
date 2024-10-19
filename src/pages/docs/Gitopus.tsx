@@ -3,7 +3,7 @@ const Gitopus = () => {
         <>
             <div className="lg:px-60 font-inter" id="home">
                 <div className="lg:my-12">
-                    <h1 className="font-inter text-black/80 font-medium text-[3.4rem] mb-4 w-[9a0%] leading-[3.6rem]">
+                    <h1 className="font-inter text-black font-medium text-[3.4rem] mb-4 leading-[3.6rem]">
                         Gitopus: Streamlining Your Git Commits With The Power Of AI! 🐙{" "}
                     </h1>
                 </div>
