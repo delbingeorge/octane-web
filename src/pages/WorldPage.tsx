@@ -3,7 +3,7 @@ import WorldMap from "../assets/image/content/world-map.svg";
 
 const WorldPage = () => {
     return (
-        <div className="lg:my-24">
+        <div className="lg:mt-20 lg:mb-2">
             <div className="flex items-center justify-center flex-col">
                 <h4 className="text-xl lg:text-[1.5rem] text-white font-inter text-center">
                     At{" "}

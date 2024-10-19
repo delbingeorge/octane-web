@@ -33,8 +33,7 @@ const FAQ = () => {
         {
             faqId: "item-3",
             title: "How can I contact Octane for support or inquiries?",
-            body: `You can contact Octane for support or inquiries through several convenient channels. Reach out to
-                   us via email at innovationsoctane@gmail.com.`,
+            body: `Reach out to us via email at innovationsoctane@gmail.com.`,
         },
     ];
 

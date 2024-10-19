@@ -30,7 +30,7 @@ const TeamPage = () => {
                                 src={value.image}
                                 alt="World Map of places where octane provide services"
                             />
-                            <div className="flex items-start justify-center flex-col mt-3">
+                            <div className="flex items-center lg:items-start justify-center flex-col mt-3">
                                 <h1 className="font-mono text-white text-xl lg:text-[1.7rem] font-extrabold">
                                     {value.firstName + " " + value.lastName}
                                 </h1>
