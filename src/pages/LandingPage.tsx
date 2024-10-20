@@ -1,6 +1,7 @@
 // Assets import
 import OctaneLogo from "../assets/image/logo/logo-svg.svg";
 import CoreElements from "../assets/image/content/core-ele.png";
+import { Link } from "react-router-dom";
 
 const LandingPage = () => {
     return (
@@ -44,13 +45,13 @@ const LandingPage = () => {
                         >
                             Get in touch
                         </a>
-                       
-                        {/* <Link
+
+                        <Link
                             to="/our-works"
-                            className="px-5 py-2 hover:bg-white duration-500 hover:text-black bg-white/40 font-inter font-medium border-white/90 rounded-[0.5rem] border-2 text-white/90 text-[1rem]"
+                            className="px-4 md:px-5 py-[0.4rem] md:py-[0.6rem] hover:bg-white duration-500 hover:text-black bg-white/40 font-inter font-medium border-white/90 rounded-[0.4rem] md:rounded-[0.4rem] border-2 text-white text-sm md:text-[1rem]"
                         >
-                            View Works
-                        </Link> */}
+                            View works
+                        </Link>
                     </div>
                 </div>
             </main>
