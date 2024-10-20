@@ -44,7 +44,7 @@ function Projects() {
                 </nav>
                 <div className="lg:mb-32 absolute z-20">
                     <div className="">
-                        <h1 className="p-3 text-[2rem] font-inter leading-[2.5rem] font-medium tracking-normal py-2 md:py-8 text-left text-white">
+                        <h1 className="p-3 text-[1.5rem] md:text-[2rem] font-inter leading-[2.5rem] font-medium tracking-normal py-2 md:py-8 text-left text-white">
                             Our contributions{" "}
                             <span className="bg-gradient-to-r from-[#3221FA] to-[#FF41E1] bg-clip-text text-transparent"></span>
                         </h1>
@@ -64,7 +64,7 @@ function Projects() {
                                     alt={items.img}
                                 />
                                 <div className="rounded-xl">
-                                    <h1 className="font-inter text-white font-semibold text-[1.5rem] lg:text-[1.5rem] mt-3 leading-[1.8rem]">
+                                    <h1 className="font-inter text-white font-semibold text-[1.3rem] lg:text-[1.5rem] mt-3 leading-[1.8rem]">
                                         {items.title}
                                     </h1>
                                     <h2 className="group text-white font-semibold text-[1rem] cursor-pointer mt-2 flex w-28 items-center justify-between">
