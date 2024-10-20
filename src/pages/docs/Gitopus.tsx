@@ -26,7 +26,7 @@ const Gitopus = () => {
             },
             { threshold: 0.5 }
         );
-
+        https://www.devoctane.in/gitopus
         document.querySelectorAll("section[id], #home").forEach((section) => {
             observer.observe(section);
         });
