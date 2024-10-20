@@ -119,14 +119,14 @@ const Gitopus = () => {
                         </h1>
                         <div className="">
                             <div className="flex items-center space-x-3 ">
+                                <p className="font-inter text-semibold font-medium text-black/40">
+                                    Last Updated: <span className="text-black/80">15th October, 2024</span>
+                                </p>
                                 {/* <img
                                     className="w-6 h-6 rounded-full object-cover"
                                     src="https://www.delb.in/assets/DelbinGeorge-22bfff80.webp"
                                     alt=""
                                 /> */}
-                                <p className="font-inter text-semibold font-medium text-black/40">
-                                    Last Updated: <span className="text-black/80">15th October, 2024</span>
-                                </p>
                             </div>
                         </div>
                     </div>
