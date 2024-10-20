@@ -8,7 +8,7 @@ const Footer = () => {
             <div className="min-w-full">
                 <div className="flex items-center justify-between flex-col lg:flex-row">
                     <img
-                        className="w-[7rem] lg:w-[8rem] lg:h-[3rem]"
+                        className="w-[7rem] lg:w-[8rem] lg:h-[3rem] mb-2"
                         src={bgImage}
                         alt="Footer image"
                         width={1728}
@@ -62,7 +62,7 @@ const Footer = () => {
                         </a>
                     </div> */}
 
-                    <p className="text-white/70 lg:text-white text-sm lg:text-md font-inter">
+                    <p className="text-white/70 text-sm lg:text-md font-inter">
                         Because we see the change you deserve!
                     </p>
                 </div>

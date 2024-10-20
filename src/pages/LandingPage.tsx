@@ -1,7 +1,6 @@
 // Assets import
 import OctaneLogo from "../assets/image/logo/logo-svg.svg";
 import CoreElements from "../assets/image/content/core-ele.png";
-import { Link } from "react-router-dom";
 
 const LandingPage = () => {
     return (
@@ -34,17 +33,18 @@ const LandingPage = () => {
                     <h1 className="text-4xl text-center lg:text-[4rem] font-bold text-transparent lg:my-4 lg:pb-4 bg-clip-text bg-gradient-to-r from-[#008E6C] via-[#00BA6C] to-[#1B3CEB] font-inter fade-up-one">
                         to enhance your business!
                     </h1>
-                    <p className="text-[0.9rem] lg:text-[1.1rem] md:w-3/5 text-center text-white/90 fade-up-two">
+                    <p className="text-[0.9rem] lg:text-[1.1rem] md:w-3/5 text-center text-white/90 fade-up-two mt-3 md:mt-0">
                         At Octane Innovations, our unique 8-phase process drives innovation at every stage, delivering
                         cutting-edge software solutions to propel your business to peak performance.
                     </p>
                     <div className="flex items-center justify-between space-x-5 fade-up-two mt-6">
                         <a
                             href="mailto:innovationsoctane@gmail.com"
-                            className="px-5 py-2 bg-white duration-500 text-black hover:bg-white/40 font-inter font-medium border-white/70 rounded-[0.5rem] border-2 hover:text-white text-[1rem]"
+                            className="px-4 md:px-5 py-[0.4rem] md:py-[0.6rem] bg-white duration-500 text-black hover:bg-white/40 font-inter font-medium border-white/70 rounded-[0.4rem] md:rounded-[0.4rem] border-2 hover:text-white text-sm md:text-[1rem]"
                         >
                             Get in touch
                         </a>
+                       
                         {/* <Link
                             to="/our-works"
                             className="px-5 py-2 hover:bg-white duration-500 hover:text-black bg-white/40 font-inter font-medium border-white/90 rounded-[0.5rem] border-2 text-white/90 text-[1rem]"

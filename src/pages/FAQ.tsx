@@ -39,12 +39,12 @@ const FAQ = () => {
 
     return (
         <div className="flex flex-col lg:flex-row items-start justify-evenly lg:pt-8 lg:min-h-fit bg-pri-dark lg:px-32">
-            <div className="lg:w-2/4 ">
+            <div className="lg:w-2/4 mb-4">
                 <span className="text-transparent font-inter font-bold bg-clip-text bg-gradient-to-r from-[#00BA6C] to-[#3050ee]">
                     FAQ
                 </span>
-                <h1 className="text-white text-4xl font-semibold lg:my-1 font-inter">
-                    Get all your questions <br /> answered here!
+                <h1 className="text-white text-2xl lg:text-[3.3rem] lg:leading-[3.5rem] font-semibold lg:my-1 font-inter">
+                    Get all your questions <br /> answered here! 
                 </h1>
                 <p className="text-[1.1rem] text-white/90 text-left font-inter">
                     or ping us through our support email to learn more.

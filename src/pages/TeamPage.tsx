@@ -16,12 +16,12 @@ const TeamPage = () => {
                     We build this together!
                 </h1>
             </div>
-            <div className="grid md:grid-cols-2 gap-2 lg:gap-8 w-full lg:w-5/6">
+            <div className="grid grid-cols-2 md:grid-cols-3 gap-2 lg:gap-8 w-full lg:w-5/6">
                 {teamOctane.map((value, key) => {
                     return (
                         <div
                             key={key}
-                            className="flex flex-col lg:flex-row items-center lg:items-start justify-start group lg:space-x-8 p-4 duration-500 hover:cursor-pointer hover:bg-white/5 rounded-xl"
+                            className="flex flex-col lg:flex-row items-center lg:items-start justify-start group lg:space-x-7 p-4 duration-500 hover:cursor-pointer hover:bg-white/5 rounded-xl"
                         >
                             <img
                                 className="rounded-lg group-hover:scale-[1.02] duration-500"
@@ -31,10 +31,10 @@ const TeamPage = () => {
                                 alt="World Map of places where octane provide services"
                             />
                             <div className="flex items-center lg:items-start justify-center flex-col mt-3">
-                                <h1 className="font-mono text-white text-xl lg:text-[1.7rem] font-extrabold">
+                                <h1 className="font-mono text-white text-xl lg:text-[1.7rem] font-extrabold md:text-left text-center">
                                     {value.firstName + " " + value.lastName}
                                 </h1>
-                                <h2 className="text-white/60 font-mono">{value.role}</h2>
+                                <h2 className="text-white/60 font-mono md:text-left text-center">{value.role}</h2>
                             </div>
                         </div>
                     );
