@@ -34,7 +34,7 @@ const Gitopus = () => {
         return () => observer.disconnect();
     }, []);
 
-    const scrollToSection = (id) => {
+    const scrollToSection = (id: string) => {
         const element = document.getElementById(id);
         if (element) {
             const offset = id === "home" ? 0 : 80; // Less offset for home section
